@@ -32,5 +32,5 @@ def index():
     return {"status": "success", "message": "Oak Woods API is running"}
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5001))
+    port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port, debug=False)
