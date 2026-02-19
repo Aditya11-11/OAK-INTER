@@ -1,0 +1,9 @@
+flask
+flask-cors
+pymongo[srv]
+python-dotenv
+flask-jwt-extended
+bcrypt
+gunicorn
+pandas
+openpyxl
